@@ -9,8 +9,7 @@ A responsive, single-page personal portfolio showcasing my projects, skills, int
 ## Table of Contents
 
 - [Overview](#overview)
-- [Live Demo](#live-demo)
-- [Features](#features)
+ - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
@@ -29,9 +28,7 @@ This repository contains the source code of my personal portfolio website. It is
 
 The site highlights my work as a Java Full Stack Developer, including two full-stack projects (**Neo Ledger** and **Sales Savvy**), my technical skills, internship experience, and certifications.
 
-## Live Demo
-
-> 🔗 **https://obaid-majeed.github.io/REPO-NAME/** *(replace `REPO-NAME` with this repository's name once GitHub Pages is enabled)*
+  
 
 ## Features
 
