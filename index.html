@@ -5,7 +5,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css" /></head><body>
 <div class="bg-orb orb1"></div><div class="bg-orb orb2"></div><div class="bg-grid"></div>
-<header class="header"><div class="container nav"><div class="logo">OMK<span>.</span></div>
+<header class="header"><div class="container nav"><div class="logo">Mr Obaid<span>.</span></div>
 <nav><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#contact">Contact</a></nav>
 </div></header>
 <main>
@@ -17,19 +17,23 @@
 <div class="hero-actions"><a class="btn primary" href="#projects">View Projects</a><a class="btn secondary" href="resume.pdf" download>Download Resume</a><a class="btn ghost" href="#contact">Contact Me</a></div>
 <div class="quick-links"><a href="mailto:khanaubaid121@gmail.com">khanaubaid121@gmail.com</a><span>•</span><a href="https://github.com/obaid-majeed" target="_blank">GitHub</a><span>•</span><a href="https://linkedin.com/in/obaid-majeed-khan-b00679243" target="_blank">LinkedIn</a></div>
 </div>
-<div class="hero-side reveal delay-1"><div class="profile-wrap glass"><img src="profile.jpg" alt="Obaid Majeed Khan" class="profile-pic" />
+<div class="hero-side reveal delay-1"><div class="profile-wrap glass">
+<div class="img-box photo-box">
+  <img src="profile.jpg" alt="Obaid Majeed Khan" class="profile-pic" width="280" height="280" loading="lazy" decoding="async" onerror="handleImgError(this)" />
+  <span class="img-fallback">🧑‍💻<small>profile.jpg</small></span>
+</div>
 <div class="profile-meta"><h3>Profile Snapshot</h3>
-<div class="metric"><span>Location</span><strong>Kupwara, Jammu & Kashmir, India</strong></div>
+<div class="metric"><span>Location</span><strong>Bangalore, Karnataka, India</strong></div>
 <div class="metric"><span>Education</span><strong>B.Tech CSE (2021–2025)</strong></div>
 <div class="metric"><span>Target Roles</span><strong>SDE-1 • Java Full Stack Developer</strong></div>
-<div class="metric"><span>Core Stack</span><strong>Java • Spring Boot • MySQL • REST APIs</strong></div></div></div></div>
+<div class="metric"><span>Core Stack</span><strong>Java • Spring Boot • Spring Security • MySQL • REST APIs</strong></div></div></div></div>
 </section>
 
 <section class="stats container reveal">
-<div class="stat-card glass"><h3 data-target="2">0</h3><p>Major Full Stack Projects</p></div>
-<div class="stat-card glass"><h3 data-target="2">0</h3><p>Internships / Training Programs</p></div>
-<div class="stat-card glass"><h3 data-target="10">0</h3><p>Core Technologies Used</p></div>
-<div class="stat-card glass"><h3 data-target="2025">0</h3><p>Graduation Year</p></div>
+<div class="stat-card glass"><h3 data-target="2">2</h3><p>Major Full Stack Projects</p></div>
+<div class="stat-card glass"><h3 data-target="2">2</h3><p>Internships / Training Programs</p></div>
+<div class="stat-card glass"><h3 data-target="10">10</h3><p>Core Technologies Used</p></div>
+<div class="stat-card glass"><h3 data-target="2025">2025</h3><p>Graduation Year</p></div>
 </section>
 
 <section id="about" class="section container reveal"><div class="section-title"><p>Who I Am</p><h2>About Me</h2></div>
@@ -49,7 +53,11 @@
 <div class="project-buttons"><a class="project-link" href="https://github.com/obaid-majeed/neo-ledger-digital-banking-system" target="_blank">GitHub ↗</a></div></div>
 <p>Developed a full-stack digital banking application that simulates core banking workflows such as user registration, secure login, OTP-based authentication, account creation, balance inquiry, deposits, withdrawals, fund transfers, and transaction history tracking. Implemented Spring Security with role-based authorization, integrated MySQL using Hibernate/JPA, designed RESTful APIs, and built a responsive frontend following MVC architecture for seamless banking operations.</p>
 <div class="feature-list"><span>OTP Authentication</span><span>Account Management</span><span>Fund Transfer</span><span>Transaction History</span><span>Role-Based Security</span><span>Responsive UI</span></div>
-<div class="gallery"><img src="neo-login.png" alt="Neo Ledger login page"><img src="neo-register.png" alt="Neo Ledger registration page"><img src="neo-dashboard.png" alt="Neo Ledger dashboard"></div>
+<div class="gallery">
+  <div class="img-box gallery-box"><img src="neo-login.png" alt="Neo Ledger login page" loading="lazy" decoding="async" onerror="handleImgError(this)"><span class="img-fallback">🖼️<small>neo-login.png</small></span></div>
+  <div class="img-box gallery-box"><img src="neo-register.png" alt="Neo Ledger registration page" loading="lazy" decoding="async" onerror="handleImgError(this)"><span class="img-fallback">🖼️<small>neo-register.png</small></span></div>
+  <div class="img-box gallery-box"><img src="neo-dashboard.png" alt="Neo Ledger dashboard" loading="lazy" decoding="async" onerror="handleImgError(this)"><span class="img-fallback">🖼️<small>neo-dashboard.png</small></span></div>
+</div>
 </article>
 
 <article class="project glass">
@@ -57,6 +65,14 @@
 <div class="project-buttons"><a class="project-link disabled" href="javascript:void(0)">GitHub link coming soon</a></div></div>
 <p>Built a full-stack sales and customer management system to streamline business operations through user registration, login, product management, cart management, payment handling, order processing, and admin functionality. Designed CRUD-based business modules with Spring Boot, Hibernate/JPA, and MySQL while implementing a responsive frontend for efficient customer, sales, and inventory workflow management.</p>
 <div class="feature-list"><span>User Registration & Login</span><span>Product Management</span><span>Cart & Payment Flow</span><span>Order Management</span><span>Admin Functionality</span><span>Customer Workflow Management</span></div>
+    <div class="gallery">
+      <div class="img-box gallery-box"><img src="sales1.png" alt="Sales Savvy login page" loading="lazy" decoding="async" onerror="handleImgError(this)"><span class="img-fallback">🖼️<small>sales1.png</small></span></div>
+      <div class="img-box gallery-box"><img src="sales2.png" alt="Sales Savvy registration page" loading="lazy" decoding="async" onerror="handleImgError(this)"><span class="img-fallback">🖼️<small>sales2.png</small></span></div>
+      <div class="img-box gallery-box"><img src="sales3.png" alt="Product dashboard" loading="lazy" decoding="async" onerror="handleImgError(this)"><span class="img-fallback">🖼️<small>sales3.png</small></span></div>
+      <div class="img-box gallery-box"><img src="sales4.png" alt="CardItem dashboard" loading="lazy" decoding="async" onerror="handleImgError(this)"><span class="img-fallback">🖼️<small>sales4.png</small></span></div>
+      <div class="img-box gallery-box"><img src="sales5.png" alt="Order dashboard" loading="lazy" decoding="async" onerror="handleImgError(this)"><span class="img-fallback">🖼️<small>sales5.png</small></span></div>
+    </div>
+
 </article>
 </section>
 
